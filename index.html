@@ -6,25 +6,42 @@
 <head>
 <meta charse="UTF-8":>
 <title>Hangman Game</title>
-<h1> Hangman Game</h1>
+<h1> Can You Guess The Word? </h1>  
 <link rel="stylesheet" src="assets/css/reset.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <script src="assets/javascript.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Rubik:900" rel="stylesheet">
 </head>
 
 <body>
+        <!-- <img id="win" src="assets/images/win.jpg" alt="You Win!" width="304" height="228"> -->
 
-<div>
+<div id = "break" class = "row">
+    <div id = "break2" class = col-md-12>
 
-<p id = "mysteryWord"></p>
-<p id = "message">Press Any Key to Begin!</p>
-<p id = "goodguess"></p>
-<p id = "Status"></p>
-<p id = "remaining"></p>
-<p id = "guesses"></p>
-<p id = "loss"></p>
-
+    </div>
 </div>
 
+<div class = "container">
+    <div id = "content" class = "row">
+        <div id = "blank1" class = col-md-4></div>
+        <div id = "box" class = col-md-4>   
+            <p id = "mysteryWord"></p>
+            <p id = "message">Press Any Key to Begin!</p>
+            <p id = "wins">Total Wins: </p>
+            <p id = "losses"> Total Losses: </p>
+            <p id = "goodguess"></p>
+            <p id = "Status"></p>
+            <p id = "remaining"></p>
+            <p id = "youveguessed"></p>
+            <p id = "guesses"></p>
+            <p id = "loss"></p>
+            <p>  </p>
+        </div>
+        <div id = "blank2" class = col-md-4></div>
+
+</div>
+</div>
 </body>
 </html>
